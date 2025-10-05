@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: aiservice
+
+  data:
+    mongodb:
+      uri: mongodb+srv://root:sachin1234@ramo.wdr323k.mongodb.net/fitnessrecommendation
+      database: fitnessrecommendation
+
+server:
+  port: 7171
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
