@@ -5,7 +5,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://root:sachin1234@ramo.wdr323k.mongodb.net/fitnessrecommendation
+      uri: 
       database: fitnessrecommendation
 
 server:
